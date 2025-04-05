@@ -1,0 +1,14 @@
+{
+  "name": "desktopapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electorn": "^0.0.1-security",
+    "electron": "^34.1.1",
+    "puppeteer": "^24.2.0",
+    "socket.io": "^4.8.1"
+  }
+}
