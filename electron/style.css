@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0f0f0f, #1c1c2b);
+    color: white;
+  }
+  
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+    color: #a678f2;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar nav button {
+    background: none;
+    border: none;
+    color: #eee;
+    padding: 12px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar nav button:hover {
+    background-color: #27263d;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+  
+  .content h2 {
+    font-size: 1.6rem;
+    color: #b78df0;
+    margin-bottom: 1rem;
+  }
+  
+  .apps-grid {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .app-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #a678f2, #5e4caf);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .app-icon:hover {
+    transform: scale(1.05);
+  }
+  
